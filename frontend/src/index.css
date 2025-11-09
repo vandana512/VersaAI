@@ -25,3 +25,7 @@
   overflow-y: scroll !important;
   scrollbar-gutter: stable; /* keeps space reserved for scrollbar */
 }
+
+.reset-tw, .reset-tw * {
+  all: revert !important;
+}
