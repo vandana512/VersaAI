@@ -73,7 +73,7 @@ const Dashboard = () => {
         )
         :
         (
-          <div className="space-y-3">
+          <div className="space-y-3 w-full">
           <p className="mt-6 mb-4">Recent Creations</p>
           
           {creations.map((item) => (
